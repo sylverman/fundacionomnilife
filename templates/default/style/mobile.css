@@ -1,0 +1,87 @@
+@media (max-width: 768px) {
+	h2 {
+		font-size: 36px;
+	}
+	h3 {
+		font-size: 38px;
+	}
+	section h3 {
+		font-size: 32px;	
+	}
+	#slider .slide .caption{
+		padding: 40px;
+	}
+	#slider .slide .caption .mainTitle {
+		margin: 20px auto 0 auto;
+	}
+	#slider .slide .caption h2 {
+		font-size: 40px;
+	}
+	#slider .slide .caption p {
+		font-size: 15px;
+	}
+	section.caption, div.caption {
+		padding: 30px;
+	}
+	#brands {
+		width: auto;
+	}
+	footer #credits {
+		text-align: center;
+	}
+	footer #credits span {
+		float: none;
+	}
+	footer #social-links {
+		text-align: center;
+		width: 160px;
+		margin: auto;
+	}
+	footer .logo {
+		display: block;
+		text-align: center;
+	}
+	footer .logo img{
+		margin-bottom: 40px;
+	}
+	footer .container #footerLinks {
+		display: none;
+	}
+	.wrapper:hover .main {
+		display: none;		
+	}
+	.cover .wrapper {
+		margin-bottom: 20px;
+	}
+	.cover .wrapper .main {
+		display: flex;
+		opacity: 1;
+	}
+	.cover .wrapper .category-icon {
+		display: none;
+	}
+	/************* SECCIONES ***************/
+	#aboutus > div:first-of-type {
+		display: none;
+	}
+	#aboutus2 {
+		padding: 10px 30px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	#contactus {
+		padding: 20px 40px;
+	}
+	section.spaced, section .spaced {
+		padding: 20px;
+	}
+	.program.caption {
+		padding: 20px 40px;
+	}
+	#intro-program {
+		padding: 30px;
+	}
+	.image-caption p {
+		margin: 0;
+	}
+}

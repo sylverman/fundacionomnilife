@@ -1,0 +1,14 @@
+<?xml version="1.0"?> 
+<!DOCTYPE MENSAJE SYSTEM "mensaje.dtd"> 
+<theme> 
+	<name>Omnilife</name>
+	<thumb></thumb>
+	<version></version>
+	<author>
+		<name>Thlink!</name>
+		<url>http://thlink.mx</url>
+	</author>
+	<dbinstall></dbinstall>
+	<panel></panel>
+	<documentation></documentation>
+</theme>

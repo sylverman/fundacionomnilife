@@ -1,0 +1,153 @@
+@media only screen and (max-width: 1024px) {
+	body {
+		padding-top: 80px;
+	}
+	header{
+    	height: 80px;
+    	position: fixed;
+    	left: 0;
+    	top: 0;
+    }
+    header #stacks {
+	    display: block;
+		background: url('../images/ico_stack.svg') center center no-repeat;
+		float: left;
+		width: 80px;
+		height: 80px;
+		cursor: pointer;
+	}
+	 header #stacks.active {
+		background-color: #eee;
+	}
+	header nav {
+		font-size: 20px;
+		margin-left: 0;
+		float: none;
+	    background: rgba(0,0,0,.93);
+	    position: fixed;
+	    z-index: 1000;
+	    top: 80px;
+	    left: -100%;
+	    width: 100%;
+	    bottom: 0;
+	    overflow-x: hidden;
+		overflow-y: auto;
+
+		transition: all 300ms ease-in-out;
+    }
+    header nav.active {
+		left: 0;  
+	}
+    header nav ul {
+	    
+    }
+	header nav > ul > li {
+		float: none;
+		height: auto;
+		line-height: 88px;
+		margin: 0;
+		list-style-type: none;
+		border-top: 1px solid #3c3535;
+	}
+	header nav > ul > li:last-of-type {
+		border-bottom: 1px solid #3c3535;
+	}
+	header nav > ul > li > a{
+		color: #FFF;
+		display: block;
+		height: 88px;
+		padding: 0 40px;
+		box-sizing: border-box;
+	}
+	header nav > ul > li > a.selected{
+		border-left: 5px solid #e90e8b;
+		border-bottom: none;
+	}
+	header nav > ul > li > a:hover{
+		color: #FFF;
+		background: none;
+	}
+	header nav > ul > li > a:active{
+		background: #e90e8b;
+	}
+	header nav > ul > li:hover > a{
+		color: #FFF;
+	}
+	header nav > ul > li:hover > ul {
+		display: none;
+	}
+	header nav > ul > li > ul {
+		display: none;
+		height: auto;
+		overflow: hidden;
+		text-transform: none;
+		background: rgba(0,0,0,.5);
+		position: relative;
+		margin: 0;
+		padding: 0;
+		border: none;
+		border-top: 1px solid #3c3535;
+	}
+	header nav > ul > li > ul > li {
+		height: auto;
+		/*border-top: 1px solid #3c3535;*/
+	}
+	header nav > ul > li > ul > li:last-of-type {
+		height: auto;
+		/*border-bottom: 1px solid #3c3535;*/
+	}
+	header nav > ul > li > ul > li > a{
+		color: #6b6b6b;
+		padding: 0 40px;
+		cursor: pointer;
+		display: block;
+		height: 60px;
+		line-height: 60px;
+	}
+	header nav > ul > li > ul > li a:hover {
+		color: #6b6b6b;
+		background: none;
+	}
+	header nav > ul > li > ul > li a:active {
+		color: #FFF;
+		background: #e90e8b;
+	}
+    header menu {
+	    display: none;
+    }
+    header .logo{
+		float: none;
+		margin: auto;
+		height: 80px;
+		display: block;
+		text-align: center;
+	}
+	header #logoHeader{
+		margin: 0;
+	}
+	header #shareButton {
+		width: 64px;
+		height: 80px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	#contactus {
+		padding: 20px 40px;
+	}
+	.wrapper.gray p {
+		margin: 0 10px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	#vision1 {
+		display: none;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+	#aboutus2 {
+		padding: 30px 50px;
+	}
+	#intro-program {
+		padding: 30px;
+	}
+}
